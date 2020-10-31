@@ -1,0 +1,14 @@
+# Example of .env file. Don't make any change on this file directly
+# Firstly, run `cp dotenv .env` and then fill in the missing values
+
+# Values that has defaults set are commented not to rewrite the value from
+# src/settings.py
+
+# Application host.Defaults to 0.0.0.0
+# HOST=
+
+# Application port. Defaults to 8080
+# PORT=
+
+# Project debug mode. DEfaults to 0. Set to 1 to enable.
+# DEBUG=
