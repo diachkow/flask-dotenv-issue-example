@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "flask-poetry-issue-example"
+name = "flask-doenv-issue-example"
 version = "0.1.0"
 description = ""
 authors = ["vitaliy-diachkov <diachkovspecial@gmail.com>"]

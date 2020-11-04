@@ -1,5 +1,10 @@
 import os
 
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 # Host on which to run application
 HOST = os.environ.get('HOST', '0.0.0.0')
