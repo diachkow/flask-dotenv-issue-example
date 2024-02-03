@@ -1,3 +1,3 @@
-# Flask + python-dotenv issue
+# Flask & python-dotenv issue example
 
-Project to show the existing issue of using Flask with Poetry & python-dotenv package.
+**Important Note**: The issue has been fixed, but I am not hiding this project from the public as I used it as a reference in one of the Github issues. The problem occurred because Flask implicitly tries to use the `load_dotenv()` function when the `python-dotenv` package is installed in your virtual environment. This behavior conflicts when you try to load environment variables yourself, as I've done in [`src/settings.py`](./src/settings.py). To solve this problem, you can set the `load_dotenv` argument to `False` when creating a `Flask` instance (see [`src/main.py`](./src/main.py) for details).
